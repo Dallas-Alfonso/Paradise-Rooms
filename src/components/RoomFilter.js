@@ -41,7 +41,7 @@ export default function RoomFilter({rooms}) {
             <from className="filter-form">
                 {/*select type */}
                 <div className="form-group">
-                    <label htmlFor="type">room type</label>
+                    <label htmlFor="type" >room type</label>
                     <select
                     name="type"
                     id="type"

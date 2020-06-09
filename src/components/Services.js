@@ -7,23 +7,23 @@
         services:[
             {
                 icon:<FaCocktail/>,
-                title:"free cocktails",
-                info: "Lorem ipsum dolor sit amet consectetur adisp elit. Magni, copsj!"
+                title:"Endless cocktails",
+                info: "Like cocktails? Well we have you covered; forever. Drink to your hearts content."
             },
             {
                 icon:<FaHiking />,
-                title:"Endless Hiking",
-                info: "Lorem ipsum dolor sit amet consectetur adisp elit. Magni, copsj!"
+                title:"Hiking Adventures",
+                info: "Need a change of scenery?  Join us for an adventure of a lifetime.  One you will never forget."
             },
             {
                 icon:<FaShuttleVan/>,
-                title:"Free shuttle",
-                info: "Lorem ipsum dolor sit amet consectetur adisp elit. Magni, copsj!"
+                title:"Car Service",
+                info: "We will take you anywhere you want to go.  We are at your service."
             },
             {
                 icon:<FaBeer />,
-                title:"Strongest Beer",
-                info: "Lorem ipsum dolor sit amet consectetur adisp elit. Magni, copsj!"
+                title:"Specialty Beer",
+                info: "Experience our selection of beer from around the world."
             }
         ]
     } 

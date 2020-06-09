@@ -1,4 +1,4 @@
-import room1 from "./images/details-1.jpeg";
+import room1 from "./images/d4.jpg";// presidential room
 import room2 from "./images/details-2.jpeg";
 import room3 from "./images/details-3.jpeg";
 import room4 from "./images/details-4.jpeg";
@@ -9,11 +9,11 @@ import img4 from "./images/room-4.jpeg";
 import img5 from "./images/room-5.jpeg";
 import img6 from "./images/room-6.jpeg";
 import img7 from "./images/room-7.jpeg";
-import img8 from "./images/room-8.jpeg";
+import img8 from "./images/d16.jpg"; // Found in Main Page..
 import img9 from "./images/room-9.jpeg";
 import img10 from "./images/room-10.jpeg";
 import img11 from "./images/room-11.jpeg";
-import img12 from "./images/room-12.jpeg";
+import img12 from "./images/d2.jpg"; // Family Deluxe
 
 export default [
   {
@@ -430,15 +430,14 @@ export default [
       breakfast: true,
       featured: true,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "Enjoy a view by the Ocean.  Comfortable beds near the windows will make for an exciting day, and an even more exciting evening.  24 hour Buffet, Bars, Clubs, and Fitness Center.  Enjoy an all access pass anywhere in the resort; nothing is off limits.  Here at the resort, we fulfill all your desires.  Need to go somewhere? We have a car service that will take you anywhere.  Hungry but dont want to move?  We have unlimited room service at anytime of the day.  Need something to do?  Enjoy a beutiful view of the beach atop the many hiking spots around the resort.  We will make it easy for you to unwind, relax, and enjoy",
       extras: [
-        "Plush pillows and breathable bed linens",
         "Soft, oversized bath towels",
         "Full-sized, pH-balanced toiletries",
         "Complimentary refreshments",
-        "Adequate safety/security",
+        "Car service to take you anywhere",
         "Internet",
-        "Comfortable beds"
+        "Free 24 Hour Room Service"
       ],
       images: [
         {
@@ -658,15 +657,14 @@ export default [
       breakfast: true,
       featured: true,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "Enjoy the aroma of the ocean, the gentle warm ocean breeze, and the soft sounds of the waves dancing on top the sand.  A balanced room with ambience that fits any mood. 24 hour Buffet, Bars, Clubs, and Fitness Center.  Enjoy an all access pass anywhere in the resort; nothing is off limits.  Here at the resort, we fulfill all your desires.  Need to go somewhere? We have a car service that will take you anywhere.  Hungry but dont want to move?  We have unlimited room service at anytime of the day.  Need something to do?  Enjoy a beutiful view of the beach atop the many hiking spots around the resort.  We will make it easy for you to unwind, relax, and enjoy",
       extras: [
-        "Plush pillows and breathable bed linens",
         "Soft, oversized bath towels",
         "Full-sized, pH-balanced toiletries",
         "Complimentary refreshments",
-        "Adequate safety/security",
+        "Free 24 Hour Room Service",
         "Internet",
-        "Comfortable beds"
+        "Free sand"
       ],
       images: [
         {
@@ -715,14 +713,13 @@ export default [
       breakfast: true,
       featured: true,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "Here, you are royalty.  Top of the line room, for a top of the line guest.  Enjoy the finest bed linnens, the finest bath robes, and the finest view of the resort. 24 hour Buffet, Bars, Clubs, and Fitness Center.  Enjoy an all access pass anywhere in the resort; nothing is off limits.  Here at the resort, we fulfill all your desires.  Need to go somewhere? We have a car service that will take you anywhere.  Hungry but dont want to move?  We have unlimited room service at anytime of the day.  Need something to do?  Enjoy a beutiful view of the beach atop the many hiking spots around the resort.  We will make it easy for you to unwind, relax, and enjoy",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
+        "Free 24 hour Butler",
         "Full-sized, pH-balanced toiletries",
         "Complimentary refreshments",
         "Adequate safety/security",
-        "Internet",
+        "Free 24 hour Room Service",
         "Comfortable beds"
       ],
       images: [

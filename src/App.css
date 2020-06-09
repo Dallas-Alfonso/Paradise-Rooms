@@ -4,25 +4,26 @@
   box-sizing: border-box;
 }
 :root {
-  --primaryColor: #af9a7d;
-  --mainWhite: #fff;
-  --offWhite: #f7f7f7;
-  --mainBlack: #222;
-  --mainGrey: #ececec;
-  --darkGrey: #cfcfcf;
+  --primaryColor: #776952; /* #af9a7d */
+  --mainWhite:  rgb(230, 229, 227) ; /* #DCDCDC  #FFDEAD  #FFDAB9   #fff  */
+  --offWhite:  rgb(230, 229, 227) ; /* #f7f7f7 */
+  --mainBlack: #222 ;   /* #7FFF00 */
+  --mainGrey: #663399; /* #ececec #8B0000 */
+  --darkGrey: #DCDCDC; /* #cfcfcf */
   --mainTransition: all 0.3s linear;
-  --mainSpacing: 3px;
+  --mainSpacing: 5px;
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
 }
 /* globals */
 body {
-  padding-top: 66px;
+  padding-top: 0px;
   color: var(--mainBlack);
   background: var(--mainWhite);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  line-height: 1.4;
+  font-family: cursive, Verdana, Tahoma, sans-serif; /* Verdana, Geneva, */
+  line-height: 1.5;
 }
+
 h1 {
   font-size: 3em;
   line-height: 1;
@@ -88,6 +89,13 @@ h6 {
 }
 /* end of globals */
 /* Navbar */
+.border{
+  border: 2px solid #776952;
+  padding: 0px 25px 0px 25px;
+  border-right-style: none;
+  border-left-style: none;
+}
+
 .navbar {
   position: fixed;
   top: 0;
@@ -159,13 +167,13 @@ h6 {
 .defaultHero,
 .roomsHero {
   min-height: calc(100vh - 66px);
-  background: url("./images/defaultBcg.jpeg") center/cover no-repeat;
+  background: url("./images/Beach H1.jpg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .roomsHero {
-  background-image: url("./images/room-2.jpeg");
+  background-image: url("./images/Cover.jpg");
   min-height: 60vh;
 }
 /* End of Hero */
@@ -178,6 +186,7 @@ h6 {
   text-align: center;
   text-transform: capitalize;
   letter-spacing: var(--mainSpacing);
+  border-radius: 100px;
 }
 .banner h1 {
   font-size: 2.5rem;
@@ -215,7 +224,7 @@ h6 {
   margin-bottom: 4rem;
 }
 .section-title h4 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   letter-spacing: var(--mainSpacing);
   text-transform: capitalize;
   margin-bottom: 1rem;
@@ -233,8 +242,11 @@ h6 {
   padding: 5rem 0;
 }
 .services {
-  background: var(--darkGrey);
+  background: url("./images/services2.jpg"); /* https://www.textures.com/system/gallery/photos/Soil/Beach/107843/SoilBeach0087_1_600.jpg?v=5  https://www.textures.com/system/gallery/photos/Soil/Beach/107843/SoilBeach0087_1_600.jpg?v=5 https://www.textures.com/system/gallery/photos/Soil/Beach/59743/SoilBeach0089_1_download600.jpg  var(--darkGrey) */
   text-align: center;
+  background-position: center;
+  /*background-repeat: no-repeat;*/
+  background-size: contain;
 }
 .services-center {
   width: 90vw;
@@ -246,9 +258,9 @@ h6 {
 }
 .service span {
   display: inline-block;
-  color: var(--primaryColor);
-  font-size: 2.5rem;
-  margin-bottom: 1.5rem;
+  color: var(--mainBlack);
+  font-size: 3.7rem;
+  margin-bottom: .5rem;
 }
 .services h6 {
   letter-spacing: var(--mainSpacing);
@@ -274,7 +286,7 @@ h6 {
 /* featured rooms */
 
 .featured-rooms {
-  padding: 5rem 0;
+  padding: 3rem 0;
 }
 .featured-rooms-center {
   width: 80vw;
@@ -298,21 +310,29 @@ h6 {
 }
 /* end pf featured rooms */
 /* room */
+
+
 .room {
-  box-shadow: var(--lightShadow);
+  /* box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.5); */  /* --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);   var(--lightShadow)*/
   transition: var(--mainTransition);
+  border-radius: 100px;
+  /* This is the shadow of the boxes */
 }
 .room:hover {
-  box-shadow: var(--darkShadow);
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.5) ;   /*  var(--darkShadow)  4px 10px 5px 0px rgba(0, 0, 0, 0.5);  */
 }
 
 .img-container {
   position: relative;
+  border-radius: 100px; /* pretty cool feature.. circle within square */
+  
 }
 .img-container img {
   width: 100%;
   display: block;
   transition: var(--mainTransition);
+  border-radius: 100px; /* image is rounded */
+  box-shadow: 5px 0px 3px 0px rgba(0, 0, 0, 0.5);
 }
 .price-top {
   position: absolute;
@@ -325,6 +345,7 @@ h6 {
   font-size: 0.5rem;
   text-align: center;
   transition: var(--mainTransition);
+  border-radius: 100px; /* cool feature rounding out prices (shadow round out)*/
 }
 .price-top h6 {
   margin-bottom: 0;
@@ -350,6 +371,7 @@ h6 {
 }
 .img-container:hover .room-link {
   transform: translate(-50%, -50%) scale(1);
+  
 }
 .room-info {
   background: var(--darkGrey);
@@ -358,7 +380,11 @@ h6 {
   text-align: center;
   font-weight: 700;
   letter-spacing: var(--mainSpacing);
+  border-radius: 100px;
+  box-shadow:3px 3px 3px 1px rgba(0, 0, 0, 0.5);
 }
+
+
 /* end of room  */
 /* single room*/
 
@@ -376,6 +402,7 @@ h6 {
 .single-room-images img {
   width: 100%;
   display: block;
+  border-radius: 100px;
 }
 .single-room-info {
   width: 80vw;
@@ -484,6 +511,7 @@ h6 {
   width: 100%;
   background: transparent;
   font-size: 1rem;
+  background-color: rgb(255, 255, 255);
 }
 .size-inputs {
   display: flex;
