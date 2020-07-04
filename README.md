@@ -5,9 +5,9 @@ A Hotel App with multiple rooms choices for any customer preferences
 ## Features
 
 - Rooms can be filtered by:
-  Number of Guests
-  Price of Room
-  Room Size
+  Number of Guests,
+  Price of Room,
+  Room Size,
   Breakfast offered?
   Pets Allowed?
   
