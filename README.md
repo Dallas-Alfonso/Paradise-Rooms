@@ -8,11 +8,11 @@ View Live Demo: https://paradise-rooms.netlify.app/
 
 Search through a selection of Rooms with Unique features
 
-![Main Page and Individual Room]
+![Main Page and Individual Room](./public/Paradise-Rooms-pt3-A.gif)
 
 Set user preferences and Filter through room selection
 
-![Second Page, Filtering function and Individual Room]
+![Second Page, Filtering function and Individual Room](./public/Paradise-Rooms-pt3-B.gif)
 
 ## Technologies
 
