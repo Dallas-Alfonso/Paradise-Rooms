@@ -6,11 +6,11 @@ Search through Hotel Rooms and filter results based on preferences
 
 ## Features
 
-Search through a selection of Rooms with Unique features: Explore a variety of hotel rooms each offering different amenities and characteristics.
+**Search through a selection of Rooms with Unique features::** Explore a variety of hotel rooms each offering different amenities and characteristics.
 
 ![Main Page and Individual Room](./public/Paradise-Rooms-pt3-A.gif)
 
-Set user preferences and Filter through room selection: Customize your search criteria to find the perfect room based on your preferences.
+**Set user preferences and Filter through room selection:** Customize your search criteria to find the perfect room based on your preferences.
 
 ![Second Page, Filtering function and Individual Room](./public/Paradise-Rooms-pt3-B.gif)
 
